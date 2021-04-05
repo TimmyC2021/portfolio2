@@ -1,5 +1,6 @@
 import React from 'react'
 import { Router, Link } from "@reach/router";
+import MenuButton from '../MenuButton';
 
 import styles from './Navbar.module.scss';
 
@@ -7,6 +8,7 @@ import styles from './Navbar.module.scss';
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
+        <MenuButton />
         <Link to='/'>Home</Link>
         <Link to='projects'>Projects</Link>
         <Link to='skills'>Skills</Link>

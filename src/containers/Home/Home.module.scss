@@ -1,8 +1,5 @@
 @import '../../styles/variables';
-
-.navbarSpacer {
-  height: $navbarHeight;
-}
+@import '../../styles/styles';
 
 .heroImage {
   background-image: url('../../assets/images/3d-digital-landscape-with-space-sky-nebula.jpg');
@@ -14,4 +11,18 @@
 
 * {
   color: white;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  // height: 100vh;
+  // width: 100vw;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: $borderRadius;
+  background-color: black;
+  opacity: 0.8;
+  border: red solid 1px;
 }

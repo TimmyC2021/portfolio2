@@ -1,14 +1,8 @@
 @import '../../styles/variables';
+@import '../../styles/styles';
 
-.navbarSpacer {
-  height: $navbarHeight;
-}
 
 
 .heroImage {
   background-image: url('../../assets/images/river-avon-sea-mills.jpg');
-  height: 100vh;
-  background-size: cover;
-  z-index: -1;
-  background-position: center;
 }

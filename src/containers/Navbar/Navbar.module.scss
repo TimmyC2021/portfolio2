@@ -1,4 +1,5 @@
 @import '../../styles/variables';
+@import '../../styles/styles';
 
 .navbar {
   position: absolute;
@@ -6,7 +7,7 @@
   width: 100vw;
   flex-direction: row;
   justify-content: space-around;
-  height: 35px;
+  height: $navbarHeight;
   background-color:#adb9c7 ;
   a {
     color: green;
