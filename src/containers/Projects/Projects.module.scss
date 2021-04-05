@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.navbarSpacer {
+  height: $navbarHeight;
+}
+
+
+.heroImage {
+  background-image: url('../../assets/images/3d-digital-landscape-fictional-space-sky-background-3000.jpg');
+  height: 100vh;
+  background-size: cover;
+  z-index: -1;
+  background-position: center;
+}

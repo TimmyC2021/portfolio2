@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.navbar {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 35px;
+  background-color:#adb9c7 ;
+  a {
+    color: green;
+    width: 80px;
+    font-size: 20px;
+    height: $navbarHeight;
+    line-height: $navbarHeight;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    height: 100vh;
+    width: max-content;
+    justify-content: flex-start;
+    padding: 0 5px;
+  }
+}
