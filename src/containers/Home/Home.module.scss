@@ -1,28 +1,39 @@
 @import '../../styles/variables';
 @import '../../styles/styles';
 
+
 .heroImage {
   background-image: url('../../assets/images/3d-digital-landscape-with-space-sky-nebula.jpg');
-  height: 100vh;
-  background-size: cover;
-  z-index: -1;
-  background-position: center;
 }
 
-* {
-  color: white;
-}
 
 .homePage {
+  color: white;
   display: flex;
   flex-direction: column;
-  // height: 100vh;
-  // width: 100vw;
-  width: auto;
   justify-content: center;
   align-items: center;
   border-radius: $borderRadius;
   background-color: black;
   opacity: 0.8;
   border: red solid 1px;
+  padding-bottom: 10px;
+  
+  h2, h3, h4 {
+    padding: 5px 10px;
+  } 
+}
+
+@media screen and (min-width: 770px) {
+  .homePage {
+    min-width: 350px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  
+  .homePage {
+    width: 90vw;
+  }
+  
 }

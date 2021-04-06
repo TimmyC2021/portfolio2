@@ -8,9 +8,9 @@
   flex-direction: row;
   justify-content: space-around;
   height: $navbarHeight;
-  background-color:#adb9c7 ;
+  background-color:#084b54 ;
   a {
-    color: green;
+    color: white;
     width: 80px;
     font-size: 20px;
     height: $navbarHeight;
@@ -21,6 +21,7 @@
     text-decoration: underline;
   }
 }
+
 
 @media screen and (max-width: 768px) {
 
