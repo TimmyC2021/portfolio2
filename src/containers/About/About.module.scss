@@ -6,16 +6,12 @@
   background-image: url('../../assets/images/river-avon-sea-mills.jpg');
 }
 
-.aboutTitle {
-text-align: center;
-}
-
 .homePage {
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   
   border-radius: $borderRadius;
   background-color: black;
@@ -35,8 +31,17 @@ text-align: center;
   li {
     text-align: left;
   }
+  ul {
+    display: inline-block;
+  }
 }
 
+.aboutTitle {
+  margin: auto;
+}
+
+
+  
 @media screen and (min-width: 770px) {
   .homePage {
     min-width: 350px;
