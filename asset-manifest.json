@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.39919e37.chunk.css",
+    "main.js": "/static/js/main.f7a0f0e2.chunk.js",
+    "main.js.map": "/static/js/main.f7a0f0e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0106d4e1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0106d4e1.js.map",
+    "static/js/2.90dfa6ee.chunk.js": "/static/js/2.90dfa6ee.chunk.js",
+    "static/js/2.90dfa6ee.chunk.js.map": "/static/js/2.90dfa6ee.chunk.js.map",
+    "static/js/3.729366b6.chunk.js": "/static/js/3.729366b6.chunk.js",
+    "static/js/3.729366b6.chunk.js.map": "/static/js/3.729366b6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.39919e37.chunk.css.map": "/static/css/main.39919e37.chunk.css.map",
+    "static/js/2.90dfa6ee.chunk.js.LICENSE.txt": "/static/js/2.90dfa6ee.chunk.js.LICENSE.txt",
+    "static/media/Notfound.module.scss": "/static/media/archway-to-nowhere.f395f68f.jpg",
+    "static/media/Projects.module.scss": "/static/media/barrow-gurney-tanks.ea43c5ba.jpg",
+    "static/media/Contact.module.scss": "/static/media/gunpowder-house.279438be.jpg",
+    "static/media/Home.module.scss": "/static/media/river-avon-sea-mills.1ccd196c.jpg",
+    "static/media/Skills.module.scss": "/static/media/sea-mills-and-clouds.6aad1501.jpg",
+    "static/media/About.module.scss": "/static/media/trym-in-the-mist.ced33693.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0106d4e1.js",
+    "static/js/2.90dfa6ee.chunk.js",
+    "static/css/main.39919e37.chunk.css",
+    "static/js/main.f7a0f0e2.chunk.js"
+  ]
+}
