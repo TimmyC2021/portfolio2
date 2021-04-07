@@ -3,7 +3,7 @@
 
 
 .heroImage {
-  background-image: url('../../assets/images/3d-digital-landscape-with-space-sky-nebula.jpg');
+  background-image: url('../../assets/images/river-avon-sea-mills.jpg');
 }
 
 
@@ -16,7 +16,7 @@
   border-radius: $borderRadius;
   background-color: black;
   opacity: 0.8;
-  border: red solid 1px;
+  border: $borderColor solid 1px;
   padding-bottom: 10px;
   
   h2, h3, h4 {

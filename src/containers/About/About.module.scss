@@ -3,7 +3,7 @@
 
 
 .heroImage {
-  background-image: url('../../assets/images/river-avon-sea-mills.jpg');
+  background-image: url('../../assets/images/trym-in-the-mist.jpg');
 }
 
 .homePage {
@@ -11,12 +11,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // align-items: center;
-  
   border-radius: $borderRadius;
   background-color: black;
   opacity: 0.8;
-  border: red solid 1px;
+  border: $borderColor solid 1px;
   padding-bottom: 10px;
   
   h2, h3, h4 {
@@ -26,7 +24,7 @@
   } 
   p {
     text-align: left;
-    padding: 0 10px
+    padding: 5px 10px
   }
   li {
     text-align: left;

@@ -1,0 +1,49 @@
+@import '../../styles/variables';
+@import '../../styles/styles';
+
+
+.heroImage {
+  background-image: url('../../assets/images/archway-to-nowhere.jpg');
+  background-size: contain;
+}
+
+.homePage {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: $borderRadius;
+  background-color: black;
+  opacity: 0.8;
+  border: #084b54 solid 1px;
+    
+  h2, h3, h4 {
+    padding: 5px 10px;
+    text-align: left;
+    
+  } 
+  p {
+    text-align: left;
+    padding: 0 10px
+  }
+}
+
+.aboutTitle {
+  margin: auto;
+}
+
+
+  
+@media screen and (min-width: 770px) {
+  .homePage {
+    min-width: 350px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  
+  .homePage {
+    width: 90vw;
+  }
+  
+}

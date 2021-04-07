@@ -2,6 +2,75 @@
 @import '../../styles/styles';
 
 .heroImage {
-  background-image: url('../../assets/images/Trym-in-the-mist.jpg');
+  background-image: url('../../assets/images/gunpowder-house.jpg');
 }
 
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 40px 100px;
+}
+
+.homePage {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: $borderRadius;
+  background-color: black;
+  opacity: 0.8;
+  border: #084b54 solid 2px;
+  padding-bottom: 10px;
+    
+  h2, h3, h4 {
+    padding: 5px 10px;
+    text-align: left;
+    
+  } 
+  p {
+    text-align: left;
+    padding: 0 10px
+  }
+}
+
+.aboutTitle {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.icon {
+  font-size: 3em;
+  color: white;
+  :hover {
+    font-size: 1.5em;
+  }
+}
+  
+@media screen and (min-width: 770px) {
+  .homePage {
+    min-width: 350px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  
+  .homePage {
+    min-width: 70vw;
+  }
+  
+  .contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 80px 30px 80px;
+  }
+
+  .gridCV {
+    grid-row: 3;
+  }
+
+  .gridLinkedin {
+    grid-row: 3;
+  }
+  
+}
