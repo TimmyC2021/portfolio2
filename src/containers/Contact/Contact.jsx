@@ -24,7 +24,7 @@ const contact = () => {
           <div className={styles.gridCV}>CV</div>
           <div className={styles.gridLinkedin}>LinkedIn</div>
           <div>
-              <a href="mailto:TimmyC@timcarr.co.uk?subject=Enquiry from portfolio page"
+              <a href="mailto:hello@timcarr.dev?subject=Enquiry from portfolio page"
               rel="noreferrer" target="_blank" className={styles.icon}>{faEnvelopeElement}</a>
           </div>
           <div>

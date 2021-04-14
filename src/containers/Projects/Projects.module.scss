@@ -1,11 +1,65 @@
 @import '../../styles/variables';
 @import '../../styles/styles';
 
-
 .heroImage {
   background-image: url('../../assets/images/barrow-gurney-tanks.jpg');
-  height: 100vh;
-  background-size: cover;
-  z-index: -1;
-  background-position: center;
+  // height: 100vh;
+  // background-size: cover;
+  // z-index: -1;
+  // background-position: center;
+}
+
+.projectsPage {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow-y: hidden;
+  h2, h3, h4, p, a {
+    padding: 5px 10px;
+  } 
+}
+
+.projects {
+  height: 80vh;
+  overflow-y: auto;  
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  border-radius: $borderRadius;
+  background-color: black;
+  opacity: 0.8;
+  border: $borderColor solid 1px;
+  margin: 20px;
+  a {
+    // text-decoration-style:;
+  }
+  a:visited {
+    color: white;
+    
+  }
+  li {
+    padding-right: 10px;
+  }
+  section {
+    // border: 1px solid red;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  
+  .project {
+    flex-direction: column;
+    width: 90vw;
+    section {
+      width: 100%;
+    }
+  }
+  
 }

@@ -1,6 +1,12 @@
 @import '../../styles/variables';
 @import '../../styles/styles';
 
+.menuButton {
+  position: relative;
+  background-color: blue;
+  z-index: 2;
+}
+
 .navbar {
   position: absolute;
   display: flex;
@@ -9,6 +15,7 @@
   justify-content: space-around;
   height: $navbarHeight;
   background-color: $navbarBackColour ;
+ 
   a {
     color: white;
     width: 80px;
@@ -25,11 +32,21 @@
 
 @media screen and (max-width: 768px) {
 
+  .menuButton {
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    width: 80px;
+  }
   .navbar {
     flex-direction: column;
     height: 100vh;
     width: max-content;
     justify-content: flex-start;
     padding: 0 5px;
+
+    a:hover {
+      text-decoration: underline;
+    }
   }
 }

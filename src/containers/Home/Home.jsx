@@ -8,9 +8,8 @@ const home = () => {
     <div className={styles.heroImage}>
       <div className={styles.navbarSpacer}></div>
       <div className={`${styles.vertical_center} ${styles.homePage}`}>
-        <h2>TimmyC</h2>
-        <h3>Tim Carr</h3>
-        <h3>junior software developer</h3>
+        <h1>Tim Carr</h1>
+        <h2>junior software developer</h2>
       </div>
     </div>
   )
