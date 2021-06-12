@@ -9,6 +9,33 @@ const projects = () => {
         <div className={styles.projects}>
           <div className={styles.project}>
             <section>
+              <h3>Information</h3>
+              <h3>This portfolio</h3>
+            </section>
+            <section>
+              <h3>Skills:</h3>
+              <ul>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>SCSS</li>
+                <li>React</li>
+              </ul>
+            </section>
+            <section>
+              <h3>Links</h3>
+              <p></p>
+              <a href="https://github.com/TimmyC2021/portfolio2" target='_blank'>Github</a>
+              <br/><br/>
+              <a href="https://timmyc.dev" target='_blank'>Website</a>
+            </section>
+            <section>
+              <h3>Description</h3>
+              <p>This is a second incarnation of my portfolio website built using React.</p>
+            </section>
+          </div>
+
+          <div className={styles.project}>
+            <section>
               <h3>Game</h3>
               <h3>Minesweeper</h3>
             </section>
@@ -35,8 +62,8 @@ const projects = () => {
 
           <div className={styles.project}>
             <section>
-              <h2>Game</h2>
-              <h3>Minesweeper</h3>
+              <h2>Functional</h2>
+              <h3>(not) parkrun</h3>
             </section>
             <section>
               <h4>Skills:</h4>
@@ -48,12 +75,14 @@ const projects = () => {
             </section>
             <section>
               <h4>Links</h4>
-              <p>Github: <a href="">ffgfgdfdf</a></p>
-              <p>Project: <a href="">thhhghfghfgh</a></p>
+              <p>Github: <a href="https://github.com/timmyc-dev/not_parkrun_calculator/" target="_blank">Github</a></p>
+              <p>Project: <a href="https://notparkrun.timmyc.dev/" target="_blank">Website</a></p>
             </section>
             <section>
               <h4>Description</h4>
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione qui dolor, error cupiditate vero modi ducimus reprehenderit natus voluptatem quae, deserunt ea doloribus architecto autem, eveniet ab. Voluptate, autem officia.</p>
+              <p>During the Covid lockdown parkrun introduced (not) parkrun. You could record a daily 5k time. 
+                Your best time of the week would then be entered into the weekly results table for your home parkrun.
+                As most of my times are more than 5k I needed to work out the time for 5k using my average pace each day.</p>
             </section>
           </div>
         </div>

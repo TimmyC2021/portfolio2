@@ -6,7 +6,7 @@ const About = () => {
     <div className={styles.heroImage}>
       <div className={styles.navbarSpacer}></div>
       <div className={`${styles.vertical_center} ${styles.homePage}`}>
-        <h2 className={styles.aboutTitle}>About me:</h2>
+        <h2 className={styles.aboutTitle}>About me</h2>
         <p>I have lived and worked in Bristol since arriving here to attend university.</p>
         <p>Most of this time I worked for an accountancy firm located here in Bristol 
           covering businesses within a 50 mile radius.</p>
