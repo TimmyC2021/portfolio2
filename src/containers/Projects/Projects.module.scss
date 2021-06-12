@@ -22,9 +22,17 @@
   } 
 }
 
+// .projects::-webkit-scrollbar {
+//   display: none;
+// }
+
 .projects {
   height: 80vh;
-  overflow-y: auto;  
+  overflow-y: auto;
+  scrollbar-width: none;
+  
+  // -ms-overflow-style: none;  /* IE and Edge */
+  // scrollbar-width: none;  /* Firefox */
 }
 
 .project {

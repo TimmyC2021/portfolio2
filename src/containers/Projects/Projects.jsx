@@ -10,7 +10,7 @@ const projects = () => {
           <div className={styles.project}>
             <section>
               <h3>Information</h3>
-              <h3>This portfolio</h3>
+              <h4>This portfolio</h4>
             </section>
             <section>
               <h3>Skills:</h3>
@@ -37,7 +37,7 @@ const projects = () => {
           <div className={styles.project}>
             <section>
               <h3>Game</h3>
-              <h3>Minesweeper</h3>
+              <h4>Minesweeper</h4>
             </section>
             <section>
               <h3>Skills:</h3>
@@ -62,8 +62,8 @@ const projects = () => {
 
           <div className={styles.project}>
             <section>
-              <h2>Functional</h2>
-              <h3>(not) parkrun</h3>
+              <h3>Functional</h3>
+              <h4>(not) parkrun</h4>
             </section>
             <section>
               <h4>Skills:</h4>
